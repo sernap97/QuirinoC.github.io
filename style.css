@@ -1,0 +1,45 @@
+body {
+  background-color: lightblue;
+}
+#content {
+  text-align: center;
+}
+#titleHeader {
+  text-align: center;
+}
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #1ED760;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1fed67;
+  text-decoration: none;
+}
+
+#artistIMG {
+  height: 300px;
+  width: auto;
+}
+h1 { color: #ffffff; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+}
+#noImage {
+  color: red;
+}
+hr {
+	background-color: #1ED760;
+}
