@@ -1,6 +1,31 @@
 $(document).ready( function () {
     $("#problema").hide();
-  $("#problemaButton").click(function(){
-    $("#problema").show();
+    $("#entrevistas").hide();
+    $("#experto").hide();
+    $("#solucion").hide();
+    
+  $("#problema_Button").click(function(){
+    $("#problema").slideToggle(1000);
+    $("#entrevistas").slideUp(1000);
+    $("#experto").slideUp(1000);
+    $("#solucion").slideUp(1000);
+  });
+  $("#entrevistas_Button").click(function(){
+    $("#problema").slideUp(1000);
+    $("#entrevistas").slideToggle(1000);
+    $("#experto").slideUp(1000);
+    $("#solucion").slideUp(1000);
+  });
+  $("#experto_Button").click(function(){
+    $("#problema").slideUp(1000);
+    $("#entrevistas").slideUp(1000);
+    $("#experto").slideToggle(1000);
+    $("#solucion").slideUp(1000);
+  });
+  $("#solucion_Button").click(function(){
+    $("#problema").slideUp(1000);
+    $("#entrevistas").slideUp(1000);
+    $("#experto").slideUp(1000);
+    $("#solucion").slideToggle(1000);
   });
 });
