@@ -1,31 +1,33 @@
 $(document).ready( function () {
-    $("#problema").hide();
+   // $("#problema").hide();
     $("#entrevistas").hide();
     $("#experto").hide();
     $("#solucion").hide();
     
+    var time = 500;
   $("#problema_Button").click(function(){
-    $("#problema").slideToggle(1000);
-    $("#entrevistas").slideUp(1000);
-    $("#experto").slideUp(1000);
-    $("#solucion").slideUp(1000);
+    $("#problema").slideToggle(time);
+    $("#entrevistas").slideUp(time);
+    $("#experto").slideUp(time);
+    $("#solucion").slideUp(time);
   });
   $("#entrevistas_Button").click(function(){
-    $("#problema").slideUp(1000);
-    $("#entrevistas").slideToggle(1000);
-    $("#experto").slideUp(1000);
-    $("#solucion").slideUp(1000);
+    $("#problema").slideUp(time);
+    $("#entrevistas").slideToggle(time);
+    $("#experto").slideUp(time);
+    $("#solucion").slideUp(time);
   });
   $("#experto_Button").click(function(){
-    $("#problema").slideUp(1000);
-    $("#entrevistas").slideUp(1000);
-    $("#experto").slideToggle(1000);
-    $("#solucion").slideUp(1000);
+    $("#problema").slideUp(time);
+    $("#entrevistas").slideUp(time);
+    $("#experto").slideToggle(time);
+    $("#solucion").slideUp(time);
   });
   $("#solucion_Button").click(function(){
-    $("#problema").slideUp(1000);
-    $("#entrevistas").slideUp(1000);
-    $("#experto").slideUp(1000);
-    $("#solucion").slideToggle(1000);
+    $("#problema").slideUp(time);
+    $("#entrevistas").slideUp(time);
+    $("#experto").slideUp(time);
+    $("#solucion").slideToggle(time);
+
   });
 });
