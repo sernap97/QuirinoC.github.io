@@ -14,14 +14,14 @@ body {
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
-  background: #1ED760;
+  background: black;
   padding: 10px 20px 10px 20px;
   border: solid #000000 0px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #1fed67;
+  background: #404040;
   text-decoration: none;
 }
 
