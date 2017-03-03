@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: #f0e3e5;
 }
 #content {
   text-align: center;
@@ -14,7 +14,7 @@ body {
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
-  background: black;
+  background: #a5a5a5;
   padding: 10px 20px 10px 20px;
   border: solid #000000 0px;
   text-decoration: none;
@@ -29,7 +29,7 @@ body {
   height: 300px;
   width: auto;
 }
-h1 { color: #ffffff; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+h1 { color: #8aff8c; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
 
 p {
   font-family: 'Open Sans', sans-serif;
