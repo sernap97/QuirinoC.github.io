@@ -1,5 +1,5 @@
 body {
-  background-color: #f0e3e5;
+  background-color: lightblue;
 }
 #content {
   text-align: center;
@@ -30,7 +30,7 @@ body {
   width: auto;
 }
 h1 { 
-  color: #8aff8c; 
+  color: black; 
   font-family: 'Helvetica Neue', sans-serif; 
   font-size: 50px; 
   font-weight: bold; 
@@ -41,17 +41,17 @@ h1 {
 h2 {
   color: black; 
   font-family: 'Helvetica Neue', sans-serif; 
-  font-size: 50px; 
+  font-size: 25px; 
   font-weight: bold; 
   letter-spacing: -1px; 
-  line-height: 1;
-  text-align: center; }
+  line-height: 0;
+  text-align: center; 
 }
 p {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 30px;
 }
 #noImage {
   color: red;
@@ -61,4 +61,11 @@ hr {
 }
 #container {
   text-align: center;
+}
+#buttons {
+  padding: 10px;
+}
+#problemaTexto {
+  text-align: justify;
+  width: 750px;
 }
